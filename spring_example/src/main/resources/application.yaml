@@ -1,0 +1,13 @@
+spring.main.web-application-type: none
+
+pdfen:
+  credentials:
+    username: YOUR_USERNAME
+    password: YOUR_PASSWORD
+  api:
+    base-url: https://www.pdfen.com/api/v1
+    endpoints:
+      sessions: ${pdfen.api.base-url}/sessions
+      files: ${pdfen.api.base-url}/sessions/{sessionId}/files
+      processes: ${pdfen.api.base-url}/sessions/{sessionId}/processes
+      file-data: ${pdfen.api.base-url}/sessions/{sessionId}/files/{fileId}/data
