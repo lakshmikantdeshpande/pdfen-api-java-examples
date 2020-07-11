@@ -21,13 +21,3 @@ public class Timings {
     @JsonProperty("encrypt_time")
     public Integer encryptTime;
 }
-
-
-
-
-
-
-
-
-
-

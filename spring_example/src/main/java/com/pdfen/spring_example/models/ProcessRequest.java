@@ -9,4 +9,3 @@ public class ProcessRequest {
     @JsonProperty("process_settings")
     private ProcessSettings processSettings = new ProcessSettings();
 }
-

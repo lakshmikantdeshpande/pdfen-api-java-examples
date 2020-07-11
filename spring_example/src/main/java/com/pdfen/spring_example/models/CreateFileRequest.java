@@ -11,4 +11,3 @@ public class CreateFileRequest {
     @JsonProperty("file_settings")
     private FileSettings fileSettings;
 }
-
