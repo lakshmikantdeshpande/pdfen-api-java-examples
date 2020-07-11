@@ -8,7 +8,7 @@ Maven 3.x
 
 ## Steps
 1. Clone this repository:  
-```git clone https://github.com/lakshmikantdeshpande/pdfen-api-java-examples```   
+```git clone https://github.com/PDFen/pdfen-api-java-examples```   
 2. Navigate to pdfen-api-java-examples directory:  
 ```cd pdfen-api-java-examples```  
 3. Replace YOUR_USERNAME & YOUR_PASSWORD with your PDFEn credentials in application.yaml which is present here:  
